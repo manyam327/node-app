@@ -1,6 +1,5 @@
 Linux Commands:
 
-
 pwd --> Print working directory
 
 ls --> List
@@ -22,3 +21,8 @@ Tasks:
 4. Execute Basic commands In GitBash 
 
 5. Explore Linux File System
+
+6. Explore IOS model
+
+7. initialise git 
+
