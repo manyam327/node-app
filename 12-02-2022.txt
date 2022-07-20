@@ -1,0 +1,63 @@
+Tasks :-
+--------
+
+1.create a user with "your-name" and add it to group "developer"
+
+2.delete user "user100" from group "devops"
+
+3.Reset password for "user50"
+
+4.Change file "file25" permissions to 453 
+
+5.Change file "file10" ownership to user "user200" group "group100"
+
+
+User Management:-
+----------------
+
+useradd user1  --> To ctreate new user
+passwd user1   --> To create password for user1
+su user1   ---> Switch to User1
+cat /etc/passwd  --> Check list of users 
+userdel user1  ---> Delete user1
+
+
+groupadd devops --> create devops group
+groupdel devops --> delete group
+cat /etc/group  --> check the grouplist
+usermod -a -G devops user1 --> add a user1 to group devops
+gpasswd -d user1 devops --> delete a user1 from group devops
+
+File Permissions: (file owner + root):-
+--------------------------------------
+
+user   
+group   
+others  
+
+Read   (r)     4
+write  (w)     2
+execution (x)  1
+
+chmod 567 file1  or chmod r-x rw- rwx file1  --> Change permissions to file1
+
+Example :
+-rw-rw-r--    1   ec2-user ec2-user   33      Feb 11   14:41    file1
+ 6  6  4
+(Permissions)     (User)   (group)   (Size)   (date)   (Time)  (filename)
+
+7     7    7    
+rwx  rwx  rwx 
+
+File Ownership: (onlyt Root can change the ownership):-
+-------------------------------------------------------
+
+Example: -rw-rw-r-- 1 ec2-user ec2-user 33 Feb 11 14:41 file1
+
+chown user3 file1  --> Change the ownership to user3
+chown user3:user3 file1 --> Change ownership ro user3 and group 
+
+
+
+
+

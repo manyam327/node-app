@@ -1,0 +1,90 @@
+Tasks:
+
+1. Explore relative path and Obsolute Path
+
+2. Print 5 to 7 between lines (file contains 10 lines)
+
+3. Explore Uniq and wc commands
+
+
+Basic Commands:
+
+pwd ---> Print Working Directory
+
+date  ---> To print date
+
+cal  ---> Calendar
+
+ls  ---> List
+
+ll  ---> Long List
+
+cd  ---> Change Directory
+
+cd ..  --> backward one step
+
+mkdir --> Create directory
+
+mkdir -p dir1 dir2 dir3 --> To create multiple directories
+
+mkdir -p dir4/dir5/dir6  --> To create directory inside directory
+
+rmdir dir1  --> remove empty directory
+
+rm -rf dir2 --> remove directory
+
+cat > file1 --> create a file 
+
+crl+d  --> save content 
+
+cat file1 --> To read the content inside file 
+
+cat >> file1 --> Add extra lines to existing file
+
+touch file2 -->create empty file
+
+rm file1 --> remove file1
+
+# --> Root User
+
+$ --> Normal user
+
+sudo su --> switch to Root user from normal user
+
+exit --> Come back to Normal user
+
+cp file1 file2 --> copy content from file1 to file2
+
+cp -rf dir1 dir2 --> copy files from dir1 to dir2
+
+. --> Curent directory
+
+mv file1 file2 --> move file1 data to file2  (if file2 exists)
+
+mv dir1/file1 dir2  --> Move file1 from dir1 to dir2
+
+mv file1 file2 --> rename file1 with file2 (if file2 doesn't exist)
+
+head -n file1 --> To print n number of lines in a file1
+
+tail -n file1 --> To print n number of lines in file1
+
+man command-name --> Manual fo the command
+
+:q --> come out from manual
+
+more -3 file1 --> To print first 3 pages 
+
+less -2 file1  --> To print last 2 pages
+
+| (Pipe)  --> Connect two commands in series 
+
+History --> Print the History 
+
+
+
+
+
+
+
+
