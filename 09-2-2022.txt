@@ -1,0 +1,24 @@
+Linux Commands:
+
+
+pwd --> Print working directory
+
+ls --> List
+
+cd  --> Change Directory
+
+date --> To print the date and Time
+
+mkdir srinivas  --> To create the directory
+
+Tasks:
+
+1. Install and configure Gitbash in your system
+
+2. Install Virtual Box
+
+3. Signup with AWS account And be ready
+
+4. Execute Basic commands In GitBash 
+
+5. Explore Linux File System

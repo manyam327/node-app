@@ -1,0 +1,8 @@
+
+Tasks:
+
+1. Download Ubuntu Desktop ISO image and load with VM (Prepare Ubuntu Desktop VM)
+
+2. Launch a Linux EC2 in aws and Connect from CLI 
+
+3. Explore Virtuvalisation Concept 

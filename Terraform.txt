@@ -1,0 +1,48 @@
+Terraform:
+
+Installation:
+
+    1  terraform --version
+    2  git --version
+    3  yum install git -y
+    4  git --version
+    5  sudo yum install -y yum-utils
+    6  sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
+    7  sudo yum -y install terraform
+    8  terraform --version
+
+WorkSpace:
+
+terraform workspace new dev --> creation of workspce 
+terraform workspace list --> to check the list of workspaces
+terraform workspace show --> To check the current workspace
+terrform workspace select dev --> Switch to selected workspace
+terraform workspace delete production --> delete the selected workspce 
+
+Terraform workflow:
+
+terraform init   --> To check connection between terraform and remote cloud
+
+terraform plan   --> To check the validations before apply
+
+terraform apply  --> To create the resource in remote
+
+terraform destroy --> To delete the resource in remote 
+
+
+Interview Questions:
+
+1. How to check synatax errors in terraform 
+
+2. What is tf state file in terraform
+
+3. What is terraform modules?
+
+4. what is use of terraform  
+
+5. What is terraform taint command?
+
+
+
+
+
